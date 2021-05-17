@@ -1,0 +1,26 @@
+.yellow-button, .skyblue-button, .green-button, .orange-button, .pink-button {
+  border-radius: 50% !important;
+  font-weight: bold;
+}
+
+.pink-button {
+  background-color: pink;
+}
+
+.orange-button {
+  background-color: orange;
+}
+
+.green-button {
+  background-color: green;
+}
+
+.skyblue-button {
+  background-color: skyblue;
+}
+
+.yellow-button {
+  background-color: yellow;
+}
+
+/*# sourceMappingURL=output1.css.map */

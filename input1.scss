@@ -1,0 +1,27 @@
+@use 'colors';
+
+%my-button{
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.pink-button{
+    @extend %my-button;
+    background-color: colors.$pink;
+}
+.orange-button{
+    @extend %my-button;
+    background-color: colors.$orange;
+}
+.green-button{
+    @extend %my-button;
+    background-color: colors.$green;
+}
+.skyblue-button{
+    @extend %my-button;
+    background-color: colors.$skyblue;
+}
+.yellow-button{
+    @extend %my-button;
+    background-color: colors.$yellow;
+}

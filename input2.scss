@@ -1,0 +1,12 @@
+
+@mixin my-special-transform($property) {
+    transform: $property;
+}
+
+div{
+    button{
+        background-color: chartreuse;
+        margin:10% 10%;
+        @include my-special-transform(rotate(30deg));
+    }
+}
